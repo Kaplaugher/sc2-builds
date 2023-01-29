@@ -18,7 +18,7 @@ const SubmitBuildPage: NextPage = () => {
       matchUp,
       build,
     });
-    void router.push("/");
+    void router.push("/builds");
   }
   return (
     <div>

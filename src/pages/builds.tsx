@@ -1,5 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
+import Link from "next/link";
 import { api } from "../utils/api";
 
 const BuildsPage: NextPage = () => {
@@ -12,6 +13,7 @@ const BuildsPage: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex min-h-screen  bg-gradient-to-b from-[#2e026d] to-[#15162c]  text-white">
+        <Link href="/">Home</Link>
         <table>
           <thead>
             <tr>

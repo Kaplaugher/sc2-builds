@@ -14,6 +14,9 @@ const Home: NextPage = () => {
         <Link href="/submit-build">
           <span className=" text-white">Submit New Build</span>
         </Link>
+        <Link href="/submit-build">
+          <span className=" text-white">View Builds</span>
+        </Link>
       </div>
     </>
   );
