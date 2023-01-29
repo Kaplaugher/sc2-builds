@@ -18,7 +18,7 @@ const SubmitBuildPage: NextPage = () => {
       matchUp,
       build,
     });
-    router.push("/");
+    void router.push("/");
   }
   return (
     <div>
@@ -26,6 +26,7 @@ const SubmitBuildPage: NextPage = () => {
       <main className="flex min-h-screen  bg-gradient-to-b from-[#2e026d] to-[#15162c]  text-white">
         <div className="mx-auto">
           <form
+            // eslint-disable-next-line @typescript-eslint/no-misused-promises
             onSubmit={handleSubmitBuildOrder}
             className="flex h-full flex-col items-center justify-center gap-4"
           >
